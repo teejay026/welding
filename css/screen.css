@@ -2,7 +2,14 @@
 
 /* Main Container */
 img, embed, object, video {
-	max-width: 100%
+	max-width: 100%;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
 }
 /* Deviders */
 hr.separator {
@@ -65,7 +72,7 @@ div.blankSeparator2 {
 /****************************** HOME - Content Part - Logo&Menu ******************************/
 /* Header - Logo & Menu */
 #header {
-	background:#261b0d url(../images/rausch.png) repeat;
+	background:#151B54 url(../images/rausch.png) repeat;
 	margin-top:0px;
 	border-bottom:1px solid #1d1b18;
 }
@@ -140,11 +147,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	transition: all 0.5s ease-in-out;
 }
 .sf-menu li a:hover { /* visited pseudo selector so IE6 applies text colour*/
-	color:#fff;
+	color:#ffecdb;
 }
 li a#visited {
-	border-bottom:3px solid #e8ded1;
-	color:#fff;
+	border-bottom:3px solid #ffecdb;
+	color:#ffecdb;
 }
 /*** submenu ***/
 .sf-menu li ul {
@@ -376,9 +383,9 @@ html[xmlns] .slides {
 /*************************************** SHADOW STYLES ****************************************/
 .shadow {
 	position: relative;
-	-moz-box-shadow: 0 14px 10px -10px rgba(0, 0, 0, 0.4);
-	-webkit-box-shadow: 0 14px 10px -10px rgba(0, 0, 0, 0.4);
-	box-shadow: 0 14px 10px -10px rgba(0, 0, 0, 0.4);
+	/-moz-box-shadow: 0 14px 10px -10px rgba(114,143,174,0.75);
+	/-webkit-box-shadow: 0 14px 10px -10px rgba(114,143,174,0.75);
+	box-shadow: 0 14px 10px -10px #e8e8e8;
 }
 .shadow:before, .shadow:after {
 	content: '';
@@ -423,7 +430,8 @@ html[xmlns] .slides {
 }
 /****************************** Infobox & Heading & Socialize Boxes ******************************/
 .infobox {
-	background:url(../images/bg/lightpaperfibers.png) repeat;
+	background-color: #151B54;
+	url(../images/bg/lightpaperfibers.png) repeat;
 }
 .info {
 	text-align:center;
@@ -464,14 +472,20 @@ span.pink {
 	border-bottom:1px dashed #c7b3a9;
 }
 .latest figure {
-	background:#f9efe3 url(../images/rausch.png) repeat;
-	border-top:4px solid #f0dec8;
+	background: #544E15; 
+	border-top: 0px solid #151B54;
 	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
 	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-topright: 5px;
 	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-topleft: 5px;
 	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 .latest figure figcaption {
 	margin: 0 20px;
@@ -552,7 +566,7 @@ p.quote {
 }
 /****************************** Footer ******************************/
 .footer {
-	background:#261b0d url(../images/rausch.png) repeat;
+	background:#151B54 url(../images/rausch.png) repeat;
 	padding:20px 0px;
 }
 .footer p {
@@ -624,8 +638,8 @@ ul.socials li {
 }
 /****************************** Copyright ******************************/
 #copyright {
-	background:#1b1309;
-	border-top:1px solid #000;
+	background:#151B54;
+	border-top:1px solid #151B54;
 }
 p.copyright {
 	font-size:11px;
@@ -1209,9 +1223,21 @@ form#contact_form input[type="submit"] {
 	height:100%;
 }
 .contact .first {
-	background:#f9efe3 url(../images/rausch.png) repeat;
+	background:#544E15 url(../images/rausch.png) repeat;
 	padding:10px;
 	margin-bottom:40px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 .contact ul li {
 	font-size:14px;
