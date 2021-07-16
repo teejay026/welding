@@ -5,10 +5,16 @@ img, embed, object, video {
 	max-width: 100%;
 	-webkit-border-top-right-radius: 5px;
 	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 }
 /* Deviders */
@@ -72,9 +78,9 @@ div.blankSeparator2 {
 /****************************** HOME - Content Part - Logo&Menu ******************************/
 /* Header - Logo & Menu */
 #header {
-	background:#151B54 url(../images/rausch.png) repeat;
+	background:#0a0907 url(../images/rausch.png) repeat;
 	margin-top:0px;
-	border-bottom:1px solid #151B54;
+	border-bottom:1px solid #0a0907;
 }
 .logo {
 	float: left;
@@ -147,11 +153,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 	transition: all 0.5s ease-in-out;
 }
 .sf-menu li a:hover { /* visited pseudo selector so IE6 applies text colour*/
-	color:#ffecdb;
+	color:#FFD700;
 }
 li a#visited {
-	border-bottom:3px solid #ffecdb;
-	color:#ffecdb;
+	border-bottom:3px solid #FFD700;
+	color:#FFD700;
 }
 /*** submenu ***/
 .sf-menu li ul {
@@ -281,14 +287,14 @@ html[xmlns] .slides {
 	left: 25%;
 	bottom: 20%;
 	text-align:center;
-	color:#2d2010;
+	color:#0a0907;
 	background: rgba(234, 214, 189, 0.9);
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
 .caption h2 {
-	color:#2d2010;
+	color:#0a0907;
 	text-shadow: 1px 1px 0 #fff;
 	font-size: 48px;
 	margin-bottom: 20px;
@@ -381,61 +387,17 @@ html[xmlns] .slides {
 	cursor: default;
 }
 /*************************************** SHADOW STYLES ****************************************/
-.shadow {
-	position: relative;
-	/-moz-box-shadow: 0 14px 10px -10px rgba(114,143,174,0.75);
-	/-webkit-box-shadow: 0 14px 10px -10px rgba(114,143,174,0.75);
-	box-shadow: 0 14px 10px -10px #e8e8e8;
-}
-.shadow:before, .shadow:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	bottom: 15px;
-	-moz-box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.6);
-	-webkit-box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.6);
-	box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.6);
-}
-.shadow:before {
-	right: 10px;
-	-moz-transform: rotate(4deg) skewX(4deg);
-	-webkit-transform: rotate(4deg) skewX(4deg);
-	-o-transform: rotate(4deg) skewX(4deg);
-	-ms-transform: rotate(4deg) skewX(4deg);
-	transform: rotate(4deg) skewX(4deg);
-}
-/*************************************** SHADOW STYLES ****************************************/
-.shadow1 {
-	position: relative;
-	-moz-box-shadow: 0 11px 11px -9px rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 0 11px 11px -9px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 11px 11px -9px rgba(0, 0, 0, 0.2);
-}
-.shadow1:before, .shadow1:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	bottom: 15px;
-	-moz-box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.2);
-	-webkit-box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.2);
-	box-shadow: 0px 15px 12px rgba(0, 0, 0, 0.2);
-}
-.shadow1:before {
-	right: 10px;
-	-moz-transform: rotate(4deg) skewX(4deg);
-	-webkit-transform: rotate(4deg) skewX(4deg);
-	-o-transform: rotate(4deg) skewX(4deg);
-	-ms-transform: rotate(4deg) skewX(4deg);
-	transform: rotate(4deg) skewX(4deg);
+
 }
 /****************************** Infobox & Heading & Socialize Boxes ******************************/
 .infobox {
-	background-color: #151B54;
+	background-color: #0a0907;
 	url(../images/bg/lightpaperfibers.png) repeat;
 }
+
 .info {
-	text-align:center;
-	padding-top:70px;
+	text-align: center;
+	padding-top: 10px;
 }
 p.infop {
 	font-size:16px;
@@ -472,8 +434,8 @@ span.pink {
 	border-bottom:1px dashed #c7b3a9;
 }
 .latest figure {
-	background: #544E15; 
-	border-top: 0px solid #151B54;
+	background: #0a0907; 
+	border-top: 0px solid #0a0907;
 	-webkit-border-bottom-right-radius: 5px;
 	-webkit-border-top-right-radius: 5px;
 	-webkit-border-bottom-left-radius: 5px;
@@ -566,7 +528,7 @@ p.quote {
 }
 /****************************** Footer ******************************/
 .footer {
-	background:#151B54 url(../images/rausch.png) repeat;
+	background:#0a0907 url(../images/rausch.png) repeat;
 	padding:20px 0px;
 }
 .footer p {
@@ -638,8 +600,8 @@ ul.socials li {
 }
 /****************************** Copyright ******************************/
 #copyright {
-	background:#151B54;
-	border-top:1px solid #151B54;
+	background:#0a0907;
+	border-top:1px solid #0a0907;
 }
 p.copyright {
 	font-size:11px;
@@ -1214,6 +1176,18 @@ form#contact_form input[type="submit"] {
 	width: 100%;
 	margin-bottom:40px;
 	overflow: hidden;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 .map-container iframe, .map-container object, .map-container embed {
 	position: absolute;
@@ -1223,7 +1197,7 @@ form#contact_form input[type="submit"] {
 	height:100%;
 }
 .contact .first {
-	background:#544E15 url(../images/rausch.png) repeat;
+	background:#0a0907 url(../images/rausch.png) repeat;
 	padding:10px;
 	margin-bottom:40px;
 	-webkit-border-bottom-right-radius: 5px;
@@ -1241,6 +1215,7 @@ form#contact_form input[type="submit"] {
 }
 .contact ul li {
 	font-size:14px;
+	text-align: center;
 }
 /****************************** Shortcodes ******************************/
 /* Content Shortcodes */
@@ -1276,6 +1251,13 @@ form#contact_form input[type="submit"] {
 	margin-right: 0!important;
 	clear: right;
 }
+
+.third_third {
+	width: 30.66%;
+	padding-left: 30.66%;
+	padding-right: 30.66%;
+}
+
 /* #Page Styles
 ================================================== */
 .content {

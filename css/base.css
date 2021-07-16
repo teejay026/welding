@@ -41,7 +41,7 @@ body {
 /*overflow-x: hidden;*/}
 ol, ul {
 	list-style: none;
-	color: #ffecdb;
+	color: #FFD700;
 }
 blockquote, q {
 	quotes: none;
@@ -59,18 +59,18 @@ table {
 body {
 	font: 12px Arial, Helvetica, sans-serif;
 	line-height: 20px;
-	color: #2d2010;
+	color: #0a0907;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 	overflow-x: hidden;
 }
 html {
-	background:#151B54;
+	background:#0a0907;
 /*overflow-x: hidden;*/ }
 /* #Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-	color: #ffecdb;
+	color: #FFD700;
 	font-family:'Oswald', serif;
 	font-weight: normal;
 	text-transform:uppercase;
@@ -110,7 +110,7 @@ h6 {
 	color: #261b0d;
 }
 p {
-	color: #ffecdb;
+	color: #FFD700;
 	line-height:1.5em;
 	font-size:14px;
 	margin: 0 0 15px 0;
@@ -172,6 +172,11 @@ hr {
 	margin: 10px 0 30px;
 	height: 0;
 }
+
+.third_third h3 {
+	text-align: center;
+}
+
 	
 /* Text Selection */
 
