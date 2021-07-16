@@ -1306,6 +1306,11 @@ form#contact_form textarea {
 .one_half, .one_third, .two_third, .one_fourth, .one_fifth, .one_sixth {
 width: 100%;
 }
+
+.third_third {
+	width: 100%;
+}
+
 .caption {
  display:none;
 }
@@ -1339,6 +1344,11 @@ form#contact_form textarea {
  line-height:40px;
  font-size:36px;
 }
+
+.third_third {
+	width: 100%;
+}
+
 form#contact_form textarea {
  width: 300px;
 }
