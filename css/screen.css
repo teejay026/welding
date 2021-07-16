@@ -1388,6 +1388,13 @@ margin-top:-200px;
  line-height:40px;
  font-size:36px;
 }
+
+.third_third {
+	width: 100%;
+	margin-right: 33%;
+    margin-left: -33%;
+}
+
 form#contact_form textarea {
  width: 200px;
 }
