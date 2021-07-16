@@ -1309,6 +1309,8 @@ width: 100%;
 
 .third_third {
 	width: 100%;
+	margin-right: 33%;
+    margin-left: -33%;
 }
 
 .caption {
@@ -1347,6 +1349,8 @@ form#contact_form textarea {
 
 .third_third {
 	width: 100%;
+	margin-right: 33%;
+    margin-left: -33%;
 }
 
 form#contact_form textarea {
